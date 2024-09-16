@@ -10,7 +10,8 @@ $username = htmlspecialchars($_SESSION['username']);
 $loginTime = isset($_SESSION['login_time']) ? $_SESSION['login_time'] : date("Y-m-d H:i:s");
 
 // Fetch user count from the Lambda function via API Gateway
-$api_url = "https://tfm1o1v2fg.execute-api.us-east-1.amazonaws.com/prod"; // Replace with your API Gateway URL
+
+$api_url = "https://3mguhroo78.execute-api.us-east-1.amazonaws.com/prod"; // Replace with your API Gateway URL
 $user_count = "N/A";
 
 try {
